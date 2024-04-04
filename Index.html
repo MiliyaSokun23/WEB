@@ -1,1 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stationary Store</title>
+    <style>
+      /* CSS for card layout */
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 10px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .card-content {
+        padding: 15px;
+      }
+
+      .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .card-description {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .card-link {
+        display: block;
+        text-align: center;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 0 0 8px 8px;
+      }
+
+      .card-link:hover {
+        background-color: #0056b3;
+      }
+
+      /* CSS for header */
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+        color: #333;
+        margin: 0;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background-color: #ddd; /* Grey background color */
+        display: inline-block;
+      }
+
+      /* Button Style */
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #0056b3;
+      }
+      /* Footer Style*/
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1>Welcome back to school</h1>
+      <p>Enjoy with our back to school deals!!!!</p>
+      <!-- Button to navigate to other pages -->
+      <a href="about.html" class="button">About Us</a>
+      <a href="honesty.html" class="button">Honesty</a>
+      
+    
+      
+  
+    </div>
+
+    <!-- Stationnary lists 10 in total -->
+    <div class="card-container">
+      <!-- White Board -->
+      <div class="card">
+        <img
+          src="https://justboards.com.au/files/images/05062022235509_full.jpg.jpg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">White Board</h2>
+          <p class="card-description">
+            DVIZ-PRO Magnetic Whiteboard Dry Erase Board, 36 x 24 Inches White Board, Silver
+            Aluminium Frame, for both students and teacher, easy to erase , can use with all marker
+          </p>
+          <br /><br />
+          <h3>49. 98$</h3>
+
+          <a href="#" class="card-link">Add to card</a>
+        </div>
+      </div>
+
+      <!-- Pencil -->
+      <div class="card">
+        <img
+          src="https://i5.walmartimages.com/asr/b14d07d6-05f2-48be-ad1a-67ec6f384bc2.4d6e19c203647a2b2caf755292810bd4.jpeg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Pack of pencil</h2>
+          <p class="card-description">
+            AmazonBasics Pre-sharpened Wood Cased #2 HB Pencils, Yellow, 30 count (Pack of 1)
+          </p>
+          <br /><br />
+          <h3>12. 89$</h3>
+          <a href="#" class="card-link">Add to card</a>
+        </div>
+      </div>
+
+      <!-- Journal Book -->
+      <div class="card">
+        <img
+          src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/7D/FD/c4d2f442-40cc-4463-8334-5eb1f8dd1930.jpg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Journal Book</h2>
+          <p class="card-description">
+            WallDeca Lined Journal Notebooks for beginner with many choices of colors
+          </p>
+          <br /><br />
+          <h3>20. 99$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Pen -->
+      <div class="card">
+        <img
+          src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/dcea33478af73053ee91ef2faf1a2bef/40b0f497-0d7d-49af-a289-6ec4dfa1c467.jpg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Pen Big C</h2>
+          <p class="card-description">
+            BIC Round Stic Xtra Life Ballpoint Pens, Medium Point (1.0mm), Blue, 60-Count Pack,
+          </p>
+          <br /><br />
+          <h3>12. 99$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Backpack -->
+      <div class="card">
+        <img
+          src="https://en.herschelsupply.fr/content/dam/herschel/products/10007/10007-00055-OS_01.jpg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Backpack</h2>
+          <p class="card-description">
+            Lightweight Backpack for School, VASCHY Classic Basic Water Resistant Casual Daypack for
+            Travel with Bottle Side Pockets
+          </p>
+          <br />
+          <h3>56. 79$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Calculator -->
+      <div class="card">
+        <img src="https://content.etilize.com/2000/1045600478.jpg" alt="Placeholder Image" />
+        <div class="card-content">
+          <h2 class="card-title">Calculator</h2>
+          <p class="card-description">
+            EL-506TSBBW 12-Digit Engineering/Scientific Calculator with Protective Hard Cover,
+            Battery and Solar Hybrid Powered LCD Display, Great for Students and Professionals,
+            Black
+          </p>
+          <h3>34. 59$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Eraser -->
+      <div class="card">
+        <img
+          src="https://i5.walmartimages.ca/images/Large/927/829/999999-65921927829.jpg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Eraser</h2>
+          <p class="card-description">Pentel Hi-Polymer Large Eraser 2-Pack, White - ZEH10BP-2</p>
+          <br /><br />
+          <h3>4. 99$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Ruler -->
+      <div class="card">
+        <img
+          src="https://i5.walmartimages.com/asr/528cd5b2-6470-4d55-a452-e62b30181bec.974f39282264c71f00de2ce2e2966bb5.jpeg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Ruler</h2>
+          <p class="card-description">
+            Mr. Pen-, 6 inch, 6 Pack, Assorted Colors. Clear, Rulers for School, with Inches and
+            Centimeters for Kids, Plastic, Small
+          </p>
+          <br />
+          <h3>10. 99$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+
+      <!-- Notebooks -->
+      <div class="card">
+        <img
+          src="https://i5.walmartimages.com/asr/dc41d65c-2cf5-4cd9-9bf7-9fa57165e2e9_1.e8d4a7603c24fda3494e335b5c9c311f.jpeg"
+          alt="Placeholder Image"
+        />
+        <div class="card-content">
+          <h2 class="card-title">Notebooks</h2>
+          <p class="card-description">
+            Oxford Spiral Notebook 6 Pack, 1 Subject, College Ruled Paper, 8 x 10-1/2 Inch, Pastel
+            Pink, Orange, Yellow, Green, Blue and Purple, 70 Sheets (63756)
+          </p>
+          <br /><br />
+          <h3>4. 99$</h3>
+          <a href="#" class="card-link">Add to carts</a>
+        </div>
+      </div>
+
+      <!-- Hignlighters -->
+      <div class="card">
+        <img
+          src="https://i5.walmartimages.com/asr/1d6d6eef-8c37-4bf6-9193-c281b0654706.b82e4702c86c2456765053856e2693ec.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+          alt="Placeholder Image"
+        />
+
+        <div class="card-content">
+          <h2 class="card-title">Hightlighter</h2>
+          <p class="card-description">
+            25145 Tank Highlighters, Chisel Tip, Assorted Fluorescent, 12-Count
+          </p>
+
+          <h3>14. 79$</h3>
+          <a href="#" class="card-link">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="center">
+        &copy; WEB222 2024 Miliya Sokun
+        <br /><br />
+      </div>
+    </footer>
+  </body>
+</html>
